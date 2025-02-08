@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportService.Airports.Host", "AirportService.Airports.Host\AirportService.Airports.Host.csproj", "{98F77D32-C541-436E-94C5-F1B031F83380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportService.Airports.Api.Contracts", "..\src\AirportService.Airports.Api.Contracts\AirportService.Airports.Api.Contracts.csproj", "{B4337144-5A4D-4C37-977C-6384573FC2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportService.Airports.Domain.Contracts", "..\src\AirportService.Airports.Domain.Contracts\AirportService.Airports.Domain.Contracts.csproj", "{AF476364-2C0F-4ABB-9179-559CAC1E5869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportService.Airports.AppServices", "..\src\AirportService.Airports.AppServices\AirportService.Airports.AppServices.csproj", "{021784BF-B3AB-49A0-8FD7-FB1F23DD13A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportService.Airports.Persictence", "..\src\AirportService.Airports.Persictence\AirportService.Airports.Persictence.csproj", "{8AE8106E-98AF-44EE-9E57-5E6C6D910D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportService.Airports.Domain", "..\src\AirportService.Airports.Domain\AirportService.Airports.Domain.csproj", "{FCDF2349-84BF-4066-BE85-CDF1FE5154E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{701C9974-E059-4FD3-90F5-A7E8056D7374}"
+	ProjectSection(SolutionItems) = preProject
+		..\docker-compose.yml = ..\docker-compose.yml
+		appsettings.json = appsettings.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F77D32-C541-436E-94C5-F1B031F83380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F77D32-C541-436E-94C5-F1B031F83380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F77D32-C541-436E-94C5-F1B031F83380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F77D32-C541-436E-94C5-F1B031F83380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4337144-5A4D-4C37-977C-6384573FC2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4337144-5A4D-4C37-977C-6384573FC2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4337144-5A4D-4C37-977C-6384573FC2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4337144-5A4D-4C37-977C-6384573FC2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF476364-2C0F-4ABB-9179-559CAC1E5869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF476364-2C0F-4ABB-9179-559CAC1E5869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF476364-2C0F-4ABB-9179-559CAC1E5869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF476364-2C0F-4ABB-9179-559CAC1E5869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021784BF-B3AB-49A0-8FD7-FB1F23DD13A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021784BF-B3AB-49A0-8FD7-FB1F23DD13A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021784BF-B3AB-49A0-8FD7-FB1F23DD13A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021784BF-B3AB-49A0-8FD7-FB1F23DD13A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE8106E-98AF-44EE-9E57-5E6C6D910D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE8106E-98AF-44EE-9E57-5E6C6D910D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE8106E-98AF-44EE-9E57-5E6C6D910D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE8106E-98AF-44EE-9E57-5E6C6D910D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDF2349-84BF-4066-BE85-CDF1FE5154E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDF2349-84BF-4066-BE85-CDF1FE5154E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDF2349-84BF-4066-BE85-CDF1FE5154E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDF2349-84BF-4066-BE85-CDF1FE5154E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

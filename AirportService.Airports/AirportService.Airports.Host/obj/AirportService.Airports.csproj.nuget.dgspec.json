@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\C#\\Airports\\src\\AirportService.Airports\\AirportService.Airports\\AirportService.Airports.csproj": {}
+  },
+  "projects": {
+    "E:\\C#\\Airports\\src\\AirportService.Airports\\AirportService.Airports\\AirportService.Airports.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Airports\\src\\AirportService.Airports\\AirportService.Airports\\AirportService.Airports.csproj",
+        "projectName": "AirportService.Airports",
+        "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports\\AirportService.Airports\\AirportService.Airports.csproj",
+        "packagesPath": "C:\\Users\\46\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Airports\\src\\AirportService.Airports\\AirportService.Airports\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\46\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

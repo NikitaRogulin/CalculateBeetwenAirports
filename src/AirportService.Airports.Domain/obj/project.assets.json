@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AirportService.Airports.Domain.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AirportService.Airports.Domain.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirportService.Airports.Domain.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AirportService.Airports.Domain.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../AirportService.Airports.Domain.Contracts/AirportService.Airports.Domain.Contracts.csproj",
+      "msbuildProject": "../AirportService.Airports.Domain.Contracts/AirportService.Airports.Domain.Contracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AirportService.Airports.Domain.Contracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\46\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\C#\\Airports\\src\\AirportService.Airports.Domain\\AirportService.Airports.Domain.csproj",
+      "projectName": "AirportService.Airports.Domain",
+      "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports.Domain\\AirportService.Airports.Domain.csproj",
+      "packagesPath": "C:\\Users\\46\\.nuget\\packages\\",
+      "outputPath": "E:\\C#\\Airports\\src\\AirportService.Airports.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\46\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "E:\\C#\\Airports\\src\\AirportService.Airports.Domain.Contracts\\AirportService.Airports.Domain.Contracts.csproj": {
+              "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports.Domain.Contracts\\AirportService.Airports.Domain.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

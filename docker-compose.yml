@@ -1,0 +1,17 @@
+services:
+  
+  airports-service-db:
+    image: postgres:latest
+    container_name: airports-db
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: "service_airports"
+      POSTGRES_USER: "airports_admin"
+      POSTGRES_PASSWORD: "admin_airports"
+      PGDATA: /data/postgres/
+    healthcheck:
+      test: /usr/bin/pg_isready
+      interval: 5s
+      timeout: 10s
+      retries: 5

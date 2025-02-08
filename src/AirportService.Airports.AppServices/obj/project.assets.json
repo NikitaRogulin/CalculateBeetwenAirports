@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "GeoCoordinate.NetCore/1.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {
+            "related": ".deps.json"
+          }
+        }
+      },
+      "AirportService.Airports.Api.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AirportService.Airports.Api.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirportService.Airports.Api.Contracts.dll": {}
+        }
+      },
+      "AirportService.Airports.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AirportService.Airports.Domain.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AirportService.Airports.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirportService.Airports.Domain.dll": {}
+        }
+      },
+      "AirportService.Airports.Domain.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AirportService.Airports.Domain.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirportService.Airports.Domain.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeoCoordinate.NetCore/1.0.0.1": {
+      "sha512": "VrR5MLkh0u2qka79JcQ/GUrgHwGidayCA7nKy2430qYX/JHdrHLgwp1MuBTSsygWs0s2V6GQ0Hp8HUMatHiWFw==",
+      "type": "package",
+      "path": "geocoordinate.netcore/1.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geocoordinate.netcore.1.0.0.1.nupkg.sha512",
+        "geocoordinate.netcore.nuspec",
+        "lib/netstandard1.6/GeoCoordinate.NetCore.deps.json",
+        "lib/netstandard1.6/GeoCoordinate.NetCore.dll"
+      ]
+    },
+    "AirportService.Airports.Api.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../AirportService.Airports.Api.Contracts/AirportService.Airports.Api.Contracts.csproj",
+      "msbuildProject": "../AirportService.Airports.Api.Contracts/AirportService.Airports.Api.Contracts.csproj"
+    },
+    "AirportService.Airports.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AirportService.Airports.Domain/AirportService.Airports.Domain.csproj",
+      "msbuildProject": "../AirportService.Airports.Domain/AirportService.Airports.Domain.csproj"
+    },
+    "AirportService.Airports.Domain.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../AirportService.Airports.Domain.Contracts/AirportService.Airports.Domain.Contracts.csproj",
+      "msbuildProject": "../AirportService.Airports.Domain.Contracts/AirportService.Airports.Domain.Contracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AirportService.Airports.Api.Contracts >= 1.0.0",
+      "AirportService.Airports.Domain >= 1.0.0",
+      "GeoCoordinate.NetCore >= 1.0.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\46\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\C#\\Airports\\src\\AirportService.Airports.AppServices\\AirportService.Airports.AppServices.csproj",
+      "projectName": "AirportService.Airports.AppServices",
+      "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports.AppServices\\AirportService.Airports.AppServices.csproj",
+      "packagesPath": "C:\\Users\\46\\.nuget\\packages\\",
+      "outputPath": "E:\\C#\\Airports\\src\\AirportService.Airports.AppServices\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\46\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "E:\\C#\\Airports\\src\\AirportService.Airports.Api.Contracts\\AirportService.Airports.Api.Contracts.csproj": {
+              "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports.Api.Contracts\\AirportService.Airports.Api.Contracts.csproj"
+            },
+            "E:\\C#\\Airports\\src\\AirportService.Airports.Domain\\AirportService.Airports.Domain.csproj": {
+              "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports.Domain\\AirportService.Airports.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "GeoCoordinate.NetCore": {
+            "target": "Package",
+            "version": "[1.0.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

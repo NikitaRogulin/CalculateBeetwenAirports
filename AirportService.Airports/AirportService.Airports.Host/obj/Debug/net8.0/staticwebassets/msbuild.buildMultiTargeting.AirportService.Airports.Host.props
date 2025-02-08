@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AirportService.Airports.Host.props" />
+</Project>

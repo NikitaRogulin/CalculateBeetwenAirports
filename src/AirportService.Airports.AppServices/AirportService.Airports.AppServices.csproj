@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AirportService.Airports.Api.Contracts\AirportService.Airports.Api.Contracts.csproj" />
+      <ProjectReference Include="..\AirportService.Airports.Domain\AirportService.Airports.Domain.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+    <PackageReference Include="GeoCoordinate.NetCore" Version="1.0.0.1" />
+    </ItemGroup>
+</Project>

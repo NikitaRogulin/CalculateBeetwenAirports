@@ -1,0 +1,11 @@
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\bin\Debug\net8.0\AirportService.Airports.Domain.Contracts.deps.json
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\bin\Debug\net8.0\AirportService.Airports.Domain.Contracts.dll
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\bin\Debug\net8.0\AirportService.Airports.Domain.Contracts.pdb
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.AssemblyInfoInputs.cache
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.AssemblyInfo.cs
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.csproj.CoreCompileInputs.cache
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.dll
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\refint\AirportService.Airports.Domain.Contracts.dll
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.pdb
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\ref\AirportService.Airports.Domain.Contracts.dll

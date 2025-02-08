@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "m/g7FyFiYtbSSYJndshZQDCM2f8yc+AuWHTQP/sNNwQ=",
+  "Source": "AirportService.Airports.Host",
+  "BasePath": "_content/AirportService.Airports.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
