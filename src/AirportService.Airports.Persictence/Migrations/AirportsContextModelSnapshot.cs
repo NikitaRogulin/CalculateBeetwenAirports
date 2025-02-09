@@ -23,7 +23,15 @@ namespace AirportService.Airports.Persictence.Migrations
 
             modelBuilder.Entity("AirportService.Airports.Domain.Contracts.Airport", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
                     b.Property<string>("Code")
+                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("code");
 
@@ -35,7 +43,7 @@ namespace AirportService.Airports.Persictence.Migrations
                         .HasColumnType("double precision")
                         .HasColumnName("longitude");
 
-                    b.HasKey("Code");
+                    b.HasKey("Id");
 
                     b.ToTable("airports", (string)null);
                 });

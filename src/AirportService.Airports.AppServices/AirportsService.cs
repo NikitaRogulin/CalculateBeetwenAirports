@@ -3,18 +3,16 @@ using AirportService.Airports.Api.Contracts;
 using AirportService.Airports.Domain;
 using AirportService.Airports.Domain.Contracts;
 using GeoCoordinatePortable;
-
 namespace AirportService.Airports.AppServices;
 
-
-public class AirportService : IAirportService
+public class AirportsService : IAirportsService
 {
     private const double multiplier = 0.000621371;
     
     private readonly IAirportsRepository _airportsRepository;
     private readonly HttpClient _httpClient;
     
-    public AirportService(IAirportsRepository airportsRepository, HttpClient httpClient)
+    public AirportsService(IAirportsRepository airportsRepository, HttpClient httpClient)
     {
         _airportsRepository = airportsRepository;
         _httpClient = httpClient;
@@ -28,18 +26,18 @@ public class AirportService : IAirportService
             return airport;
         }
 
-        var response = await _httpClient.GetStringAsync($"airports/{iataCode}");
+        var response = await _httpClient.GetStringAsync($"airports/{iataCode}", token);
         airport = JsonSerializer.Deserialize<Airport>(response);
         
         _airportsRepository.Create(airport,token);
         return airport;
     }
-    public  Task<double> CalculateDistance(Airport airport1, Airport airport2, CancellationToken token = default)
+    public double CalculateDistance(Airport airport1, Airport airport2, CancellationToken token = default)
     {
         var coordinate1 =  new GeoCoordinate(airport1.Latitude, airport1.Longitude);
         var coordinate2 =  new GeoCoordinate(airport2.Latitude, airport2.Longitude);
 
-        double distanceInMeters = coordinate1.GetDistanceTo(coordinate2);
-        return Task.FromResult(distanceInMeters * multiplier);
+        var distanceInMeters = coordinate1.GetDistanceTo(coordinate2);
+        return distanceInMeters * multiplier;
     }
 }

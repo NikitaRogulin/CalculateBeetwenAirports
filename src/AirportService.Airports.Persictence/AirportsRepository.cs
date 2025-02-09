@@ -21,7 +21,7 @@ public class AirportsRepository : IAirportsRepository
 
     public Task<Airport?> GetByIATA(string iataCode, CancellationToken token = default)
     {
-       var airport = _airportsContext.Airports.FirstOrDefaultAsync(x => x.Code == iataCode);
+       var airport = _airportsContext.Airports.FirstOrDefaultAsync(x => x.Code == iataCode, token);
        return airport;
     }
 }

@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AirportService.Airports.Persictence.Migrations
 {
     [DbContext(typeof(AirportsContext))]
-    [Migration("20250207155308_Initial")]
-    partial class Initial
+    [Migration("20250209091906_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,7 +26,15 @@ namespace AirportService.Airports.Persictence.Migrations
 
             modelBuilder.Entity("AirportService.Airports.Domain.Contracts.Airport", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
                     b.Property<string>("Code")
+                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("code");
 
@@ -38,7 +46,7 @@ namespace AirportService.Airports.Persictence.Migrations
                         .HasColumnType("double precision")
                         .HasColumnName("longitude");
 
-                    b.HasKey("Code");
+                    b.HasKey("Id");
 
                     b.ToTable("airports", (string)null);
                 });
