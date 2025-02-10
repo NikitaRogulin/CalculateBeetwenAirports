@@ -1,4 +1,4 @@
-using AirportService.Airports.Domain.Contracts;
+using AirportService.Airports.AppServices.Models;
 
 namespace AirportService.Airports.AppServices;
 

@@ -587,7 +587,6 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AirportService.Airports.Api.Contracts": "1.0.0",
-          "AirportService.Airports.Domain": "1.0.0",
           "GeoCoordinate.NetCore": "1.0.0.1"
         },
         "compile": {
@@ -597,38 +596,11 @@
           "bin/placeholder/AirportService.Airports.AppServices.dll": {}
         }
       },
-      "AirportService.Airports.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "AirportService.Airports.Domain.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AirportService.Airports.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AirportService.Airports.Domain.dll": {}
-        }
-      },
-      "AirportService.Airports.Domain.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "System.Text.Json": "9.0.1"
-        },
-        "compile": {
-          "bin/placeholder/AirportService.Airports.Domain.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AirportService.Airports.Domain.Contracts.dll": {}
-        }
-      },
       "AirportService.Airports.Persictence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "AirportService.Airports.Domain": "1.0.0",
-          "AirportService.Airports.Domain.Contracts": "1.0.0",
+          "AirportService.Airports.AppServices": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.1",
           "Microsoft.Extensions.Configuration.Json": "9.0.1",
@@ -1741,16 +1713,6 @@
       "type": "project",
       "path": "../../src/AirportService.Airports.AppServices/AirportService.Airports.AppServices.csproj",
       "msbuildProject": "../../src/AirportService.Airports.AppServices/AirportService.Airports.AppServices.csproj"
-    },
-    "AirportService.Airports.Domain/1.0.0": {
-      "type": "project",
-      "path": "../../src/AirportService.Airports.Domain/AirportService.Airports.Domain.csproj",
-      "msbuildProject": "../../src/AirportService.Airports.Domain/AirportService.Airports.Domain.csproj"
-    },
-    "AirportService.Airports.Domain.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../../src/AirportService.Airports.Domain.Contracts/AirportService.Airports.Domain.Contracts.csproj",
-      "msbuildProject": "../../src/AirportService.Airports.Domain.Contracts/AirportService.Airports.Domain.Contracts.csproj"
     },
     "AirportService.Airports.Persictence/1.0.0": {
       "type": "project",

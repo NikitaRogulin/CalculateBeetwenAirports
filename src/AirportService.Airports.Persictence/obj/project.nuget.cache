@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "n7/blEicpz9YhgX1RFWlTfa9//Rh9qQaxcS4aVsFAUMmon4BNxHMhMMaG+7a8EIuGRNat66+S4hafzrk/LZkQA==",
+  "dgSpecHash": "kqE0MoywLC5rQZ6Us44bFTBeZIRwrzVoJPDfDDI6ekdMFEOskoxEOqdsd3W4BY8P3Ou4wnu3SYiLIJrGQlIRbA==",
   "success": true,
   "projectFilePath": "E:\\C#\\Airports\\src\\AirportService.Airports.Persictence\\AirportService.Airports.Persictence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\46\\.nuget\\packages\\geocoordinate.netcore\\1.0.0.1\\geocoordinate.netcore.1.0.0.1.nupkg.sha512",
     "C:\\Users\\46\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\46\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\46\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

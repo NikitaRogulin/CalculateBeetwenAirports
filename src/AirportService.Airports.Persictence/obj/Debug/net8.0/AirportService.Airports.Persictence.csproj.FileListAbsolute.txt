@@ -1,10 +1,6 @@
 E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Persictence.deps.json
 E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Persictence.dll
 E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Persictence.pdb
-E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Domain.Contracts.dll
-E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Domain.dll
-E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Domain.Contracts.pdb
-E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Domain.pdb
 E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\AirportService.Airports.Persictence.csproj.AssemblyReference.cache
 E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\AirportService.Airports.Persictence.GeneratedMSBuildEditorConfig.editorconfig
 E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\AirportService.Airports.Persictence.AssemblyInfoInputs.cache
@@ -18,3 +14,7 @@ E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\ref\Airp
 E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Persictence.runtimeconfig.json
 E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\AirportService.Airports.Persictence.genruntimeconfig.cache
 E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\AirportService.Airports.Persictence.sourcelink.json
+E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Api.Contracts.dll
+E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.AppServices.dll
+E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.AppServices.pdb
+E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Api.Contracts.pdb

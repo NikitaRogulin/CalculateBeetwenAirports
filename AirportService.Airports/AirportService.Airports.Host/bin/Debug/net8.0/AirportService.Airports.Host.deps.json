@@ -359,33 +359,15 @@
       "AirportService.Airports.AppServices/1.0.0": {
         "dependencies": {
           "AirportService.Airports.Api.Contracts": "1.0.0",
-          "AirportService.Airports.Domain": "1.0.0",
           "GeoCoordinate.NetCore": "1.0.0.1"
         },
         "runtime": {
           "AirportService.Airports.AppServices.dll": {}
         }
       },
-      "AirportService.Airports.Domain/1.0.0": {
-        "dependencies": {
-          "AirportService.Airports.Domain.Contracts": "1.0.0"
-        },
-        "runtime": {
-          "AirportService.Airports.Domain.dll": {}
-        }
-      },
-      "AirportService.Airports.Domain.Contracts/1.0.0": {
-        "dependencies": {
-          "System.Text.Json": "9.0.1"
-        },
-        "runtime": {
-          "AirportService.Airports.Domain.Contracts.dll": {}
-        }
-      },
       "AirportService.Airports.Persictence/1.0.0": {
         "dependencies": {
-          "AirportService.Airports.Domain": "1.0.0",
-          "AirportService.Airports.Domain.Contracts": "1.0.0",
+          "AirportService.Airports.AppServices": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.1",
           "Microsoft.Extensions.Configuration.Json": "9.0.1",
@@ -633,16 +615,6 @@
       "sha512": ""
     },
     "AirportService.Airports.AppServices/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AirportService.Airports.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AirportService.Airports.Domain.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

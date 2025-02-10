@@ -1,4 +1,4 @@
-using AirportService.Airports.Domain.Contracts;
+using AirportService.Airports.AppServices.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

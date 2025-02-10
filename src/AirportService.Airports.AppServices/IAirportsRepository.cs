@@ -1,6 +1,6 @@
-using AirportService.Airports.Domain.Contracts;
-namespace AirportService.Airports.Domain;
+using AirportService.Airports.AppServices.Models;
 
+namespace AirportService.Airports.AppServices;
 public interface IAirportsRepository
 {
     public Task Create(Airport airport, CancellationToken token = default);

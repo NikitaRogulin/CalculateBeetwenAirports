@@ -1,7 +1,6 @@
 using System.Text.Json;
 using AirportService.Airports.Api.Contracts;
-using AirportService.Airports.Domain;
-using AirportService.Airports.Domain.Contracts;
+using AirportService.Airports.AppServices.Models;
 using GeoCoordinatePortable;
 namespace AirportService.Airports.AppServices;
 
@@ -27,7 +26,7 @@ public class AirportsService : IAirportsService
         }
 
         var response = await _httpClient.GetStringAsync($"airports/{iataCode}", token);
-        AirPortDto? airPortDto = JsonSerializer.Deserialize<AirPortDto>(response);
+        AirportData? airPortDto = JsonSerializer.Deserialize<AirportData>(response);
         Airport newAirport = new Airport();
         newAirport.Code = airPortDto.Code;
         newAirport.Latitude = airPortDto.Location.Latitude;

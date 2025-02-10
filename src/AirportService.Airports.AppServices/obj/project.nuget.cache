@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LwApd77CFHc8yqBoCpKpwYPMNLN4PH750H02LM6QOizBvjQ+NIFQnzrCm5Ev23Oze3/FsULC8tqxhzjrIrJZmg==",
+  "dgSpecHash": "TSUmnCPcUk/pFjh2L3omvmzdGP8aIackNwlfcSxqdOgcOiURBfZ22Q31koaoHKI/jzxx1sSmup5tDkp5BmFZRQ==",
   "success": true,
   "projectFilePath": "E:\\C#\\Airports\\src\\AirportService.Airports.AppServices\\AirportService.Airports.AppServices.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\46\\.nuget\\packages\\geocoordinate.netcore\\1.0.0.1\\geocoordinate.netcore.1.0.0.1.nupkg.sha512",
-    "C:\\Users\\46\\.nuget\\packages\\system.io.pipelines\\9.0.1\\system.io.pipelines.9.0.1.nupkg.sha512",
-    "C:\\Users\\46\\.nuget\\packages\\system.text.encodings.web\\9.0.1\\system.text.encodings.web.9.0.1.nupkg.sha512",
-    "C:\\Users\\46\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512"
+    "C:\\Users\\46\\.nuget\\packages\\geocoordinate.netcore\\1.0.0.1\\geocoordinate.netcore.1.0.0.1.nupkg.sha512"
   ],
   "logs": []
 }

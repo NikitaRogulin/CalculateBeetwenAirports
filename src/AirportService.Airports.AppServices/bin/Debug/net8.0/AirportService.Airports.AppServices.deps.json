@@ -9,7 +9,6 @@
       "AirportService.Airports.AppServices/1.0.0": {
         "dependencies": {
           "AirportService.Airports.Api.Contracts": "1.0.0",
-          "AirportService.Airports.Domain": "1.0.0",
           "GeoCoordinate.NetCore": "1.0.0.1"
         },
         "runtime": {
@@ -24,61 +23,9 @@
           }
         }
       },
-      "System.IO.Pipelines/9.0.1": {
-        "runtime": {
-          "lib/net8.0/System.IO.Pipelines.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
-          }
-        }
-      },
-      "System.Text.Encodings.Web/9.0.1": {
-        "runtime": {
-          "lib/net8.0/System.Text.Encodings.Web.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
-            "rid": "browser",
-            "assetType": "runtime",
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
-          }
-        }
-      },
-      "System.Text.Json/9.0.1": {
-        "dependencies": {
-          "System.IO.Pipelines": "9.0.1",
-          "System.Text.Encodings.Web": "9.0.1"
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
-          }
-        }
-      },
       "AirportService.Airports.Api.Contracts/1.0.0": {
         "runtime": {
           "AirportService.Airports.Api.Contracts.dll": {}
-        }
-      },
-      "AirportService.Airports.Domain/1.0.0": {
-        "dependencies": {
-          "AirportService.Airports.Domain.Contracts": "1.0.0"
-        },
-        "runtime": {
-          "AirportService.Airports.Domain.dll": {}
-        }
-      },
-      "AirportService.Airports.Domain.Contracts/1.0.0": {
-        "dependencies": {
-          "System.Text.Json": "9.0.1"
-        },
-        "runtime": {
-          "AirportService.Airports.Domain.Contracts.dll": {}
         }
       }
     }
@@ -96,38 +43,7 @@
       "path": "geocoordinate.netcore/1.0.0.1",
       "hashPath": "geocoordinate.netcore.1.0.0.1.nupkg.sha512"
     },
-    "System.IO.Pipelines/9.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-uXf5o8eV/gtzDQY4lGROLFMWQvcViKcF8o4Q6KpIOjloAQXrnscQSu6gTxYJMHuNJnh7szIF9AzkaEq+zDLoEg==",
-      "path": "system.io.pipelines/9.0.1",
-      "hashPath": "system.io.pipelines.9.0.1.nupkg.sha512"
-    },
-    "System.Text.Encodings.Web/9.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-XkspqduP2t1e1x2vBUAD/xZ5ZDvmywuUwsmB93MvyQLospJfqtX0GsR/kU0vUL2h4kmvf777z3txV2W4NrQ9Qg==",
-      "path": "system.text.encodings.web/9.0.1",
-      "hashPath": "system.text.encodings.web.9.0.1.nupkg.sha512"
-    },
-    "System.Text.Json/9.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-eqWHDZqYPv1PvuvoIIx5pF74plL3iEOZOl/0kQP+Y0TEbtgNnM2W6k8h8EPYs+LTJZsXuWa92n5W5sHTWvE3VA==",
-      "path": "system.text.json/9.0.1",
-      "hashPath": "system.text.json.9.0.1.nupkg.sha512"
-    },
     "AirportService.Airports.Api.Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AirportService.Airports.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AirportService.Airports.Domain.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "AirportService.Airports.Persictence/1.0.0": {
         "dependencies": {
-          "AirportService.Airports.Domain": "1.0.0",
-          "AirportService.Airports.Domain.Contracts": "1.0.0",
+          "AirportService.Airports.AppServices": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore.Design": "9.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.1",
@@ -19,6 +18,14 @@
         },
         "runtime": {
           "AirportService.Airports.Persictence.dll": {}
+        }
+      },
+      "GeoCoordinate.NetCore/1.0.0.1": {
+        "runtime": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          }
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -732,20 +739,18 @@
         }
       },
       "System.Threading.Channels/7.0.0": {},
-      "AirportService.Airports.Domain/1.0.0": {
-        "dependencies": {
-          "AirportService.Airports.Domain.Contracts": "1.0.0"
-        },
+      "AirportService.Airports.Api.Contracts/1.0.0": {
         "runtime": {
-          "AirportService.Airports.Domain.dll": {}
+          "AirportService.Airports.Api.Contracts.dll": {}
         }
       },
-      "AirportService.Airports.Domain.Contracts/1.0.0": {
+      "AirportService.Airports.AppServices/1.0.0": {
         "dependencies": {
-          "System.Text.Json": "9.0.1"
+          "AirportService.Airports.Api.Contracts": "1.0.0",
+          "GeoCoordinate.NetCore": "1.0.0.1"
         },
         "runtime": {
-          "AirportService.Airports.Domain.Contracts.dll": {}
+          "AirportService.Airports.AppServices.dll": {}
         }
       }
     }
@@ -755,6 +760,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "GeoCoordinate.NetCore/1.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VrR5MLkh0u2qka79JcQ/GUrgHwGidayCA7nKy2430qYX/JHdrHLgwp1MuBTSsygWs0s2V6GQ0Hp8HUMatHiWFw==",
+      "path": "geocoordinate.netcore/1.0.0.1",
+      "hashPath": "geocoordinate.netcore.1.0.0.1.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -1106,12 +1118,12 @@
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
-    "AirportService.Airports.Domain/1.0.0": {
+    "AirportService.Airports.Api.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "AirportService.Airports.Domain.Contracts/1.0.0": {
+    "AirportService.Airports.AppServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\AirportService.Airports.Api.Contracts\AirportService.Airports.Api.Contracts.csproj" />
-      <ProjectReference Include="..\AirportService.Airports.Domain\AirportService.Airports.Domain.csproj" />
     </ItemGroup>
     
     <ItemGroup>

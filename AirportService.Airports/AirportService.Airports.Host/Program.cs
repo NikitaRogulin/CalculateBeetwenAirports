@@ -1,5 +1,4 @@
 using AirportService.Airports.AppServices;
-using AirportService.Airports.Domain;
 using AirportService.Airports.Persictence;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,5 +1,5 @@
 using System.Text.Json.Serialization;
-namespace AirportService.Airports.Domain.Contracts;
+namespace AirportService.Airports.AppServices.Models;
 
 public class Location
 {

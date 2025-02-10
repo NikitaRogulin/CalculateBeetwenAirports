@@ -1,5 +1,5 @@
-using AirportService.Airports.Domain;
-using AirportService.Airports.Domain.Contracts;
+using AirportService.Airports.AppServices;
+using AirportService.Airports.AppServices.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AirportService.Airports.Persictence;

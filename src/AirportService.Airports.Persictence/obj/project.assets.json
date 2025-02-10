@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "GeoCoordinate.NetCore/1.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {
+            "related": ".deps.json"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1094,35 +1107,46 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "AirportService.Airports.Domain/1.0.0": {
+      "AirportService.Airports.Api.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "AirportService.Airports.Domain.Contracts": "1.0.0"
-        },
         "compile": {
-          "bin/placeholder/AirportService.Airports.Domain.dll": {}
+          "bin/placeholder/AirportService.Airports.Api.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AirportService.Airports.Domain.dll": {}
+          "bin/placeholder/AirportService.Airports.Api.Contracts.dll": {}
         }
       },
-      "AirportService.Airports.Domain.Contracts/1.0.0": {
+      "AirportService.Airports.AppServices/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "System.Text.Json": "9.0.1"
+          "AirportService.Airports.Api.Contracts": "1.0.0",
+          "GeoCoordinate.NetCore": "1.0.0.1"
         },
         "compile": {
-          "bin/placeholder/AirportService.Airports.Domain.Contracts.dll": {}
+          "bin/placeholder/AirportService.Airports.AppServices.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AirportService.Airports.Domain.Contracts.dll": {}
+          "bin/placeholder/AirportService.Airports.AppServices.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "GeoCoordinate.NetCore/1.0.0.1": {
+      "sha512": "VrR5MLkh0u2qka79JcQ/GUrgHwGidayCA7nKy2430qYX/JHdrHLgwp1MuBTSsygWs0s2V6GQ0Hp8HUMatHiWFw==",
+      "type": "package",
+      "path": "geocoordinate.netcore/1.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geocoordinate.netcore.1.0.0.1.nupkg.sha512",
+        "geocoordinate.netcore.nuspec",
+        "lib/netstandard1.6/GeoCoordinate.NetCore.deps.json",
+        "lib/netstandard1.6/GeoCoordinate.NetCore.dll"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -3242,21 +3266,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "AirportService.Airports.Domain/1.0.0": {
+    "AirportService.Airports.Api.Contracts/1.0.0": {
       "type": "project",
-      "path": "../AirportService.Airports.Domain/AirportService.Airports.Domain.csproj",
-      "msbuildProject": "../AirportService.Airports.Domain/AirportService.Airports.Domain.csproj"
+      "path": "../AirportService.Airports.Api.Contracts/AirportService.Airports.Api.Contracts.csproj",
+      "msbuildProject": "../AirportService.Airports.Api.Contracts/AirportService.Airports.Api.Contracts.csproj"
     },
-    "AirportService.Airports.Domain.Contracts/1.0.0": {
+    "AirportService.Airports.AppServices/1.0.0": {
       "type": "project",
-      "path": "../AirportService.Airports.Domain.Contracts/AirportService.Airports.Domain.Contracts.csproj",
-      "msbuildProject": "../AirportService.Airports.Domain.Contracts/AirportService.Airports.Domain.Contracts.csproj"
+      "path": "../AirportService.Airports.AppServices/AirportService.Airports.AppServices.csproj",
+      "msbuildProject": "../AirportService.Airports.AppServices/AirportService.Airports.AppServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AirportService.Airports.Domain >= 1.0.0",
-      "AirportService.Airports.Domain.Contracts >= 1.0.0",
+      "AirportService.Airports.AppServices >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Relational >= 9.0.1",
@@ -3290,11 +3313,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\C#\\Airports\\src\\AirportService.Airports.Domain.Contracts\\AirportService.Airports.Domain.Contracts.csproj": {
-              "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports.Domain.Contracts\\AirportService.Airports.Domain.Contracts.csproj"
-            },
-            "E:\\C#\\Airports\\src\\AirportService.Airports.Domain\\AirportService.Airports.Domain.csproj": {
-              "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports.Domain\\AirportService.Airports.Domain.csproj"
+            "E:\\C#\\Airports\\src\\AirportService.Airports.AppServices\\AirportService.Airports.AppServices.csproj": {
+              "projectPath": "E:\\C#\\Airports\\src\\AirportService.Airports.AppServices\\AirportService.Airports.AppServices.csproj"
             }
           }
         }

@@ -22,12 +22,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\AirportService.Airports.Domain.Contracts\AirportService.Airports.Domain.Contracts.csproj" />
-      <ProjectReference Include="..\AirportService.Airports.Domain\AirportService.Airports.Domain.csproj" />
+      <Folder Include="Migrations\" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Migrations\" />
+      <ProjectReference Include="..\AirportService.Airports.AppServices\AirportService.Airports.AppServices.csproj" />
     </ItemGroup>
 
 </Project>

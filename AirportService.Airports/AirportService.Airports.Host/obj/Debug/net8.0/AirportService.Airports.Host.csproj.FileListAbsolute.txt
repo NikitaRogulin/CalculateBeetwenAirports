@@ -26,14 +26,10 @@ E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\ne
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.Api.Contracts.dll
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.AppServices.dll
-E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.Domain.Contracts.dll
-E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.Domain.dll
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.Persictence.dll
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.AppServices.pdb
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.Persictence.pdb
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.Api.Contracts.pdb
-E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.Domain.pdb
-E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\AirportService.Airports.Domain.Contracts.pdb
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\obj\Debug\net8.0\AirportService.Airports.Host.csproj.AssemblyReference.cache
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\obj\Debug\net8.0\AirportService.Airports.Host.GeneratedMSBuildEditorConfig.editorconfig
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\obj\Debug\net8.0\AirportService.Airports.Host.AssemblyInfoInputs.cache

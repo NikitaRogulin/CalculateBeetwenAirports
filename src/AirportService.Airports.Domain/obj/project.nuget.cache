@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1rDRyJWb5vlaIHWAmpd1Hza+gZ3J7VFK2jCI9y+wI+If79OoUuNbxBMqZyxQZgEBU42JhH5wxQcSCvSqrn02/g==",
+  "dgSpecHash": "mMr9dg+bIFeDSypkRVi2/YLk2VYcPoPrOjRi7OsoOZ9PKwwNY4OjahMGkITlyMAzPJAqU1T1uxCdAtwcByyJBg==",
   "success": true,
   "projectFilePath": "E:\\C#\\Airports\\src\\AirportService.Airports.Domain\\AirportService.Airports.Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\46\\.nuget\\packages\\system.io.pipelines\\9.0.1\\system.io.pipelines.9.0.1.nupkg.sha512",
-    "C:\\Users\\46\\.nuget\\packages\\system.text.encodings.web\\9.0.1\\system.text.encodings.web.9.0.1.nupkg.sha512",
-    "C:\\Users\\46\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
