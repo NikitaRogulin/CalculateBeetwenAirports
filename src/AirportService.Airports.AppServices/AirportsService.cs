@@ -41,6 +41,6 @@ public class AirportsService : IAirportsService
         var coordinate2 =  new GeoCoordinate(airport2.Latitude, airport2.Longitude);
 
         var distanceInMeters = coordinate1.GetDistanceTo(coordinate2);
-        return distanceInMeters * multiplier;
+        return Math.Round(distanceInMeters * multiplier, 3, MidpointRounding.AwayFromZero);
     }
 }
