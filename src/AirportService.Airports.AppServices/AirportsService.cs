@@ -28,12 +28,13 @@ public class AirportsService : IAirportsService
 
         var response = await _httpClient.GetStringAsync($"airports/{iataCode}", token);
         AirPortDto? airPortDto = JsonSerializer.Deserialize<AirPortDto>(response);
-        airport.Code = airPortDto.Code;
-        airport.Latitude = airPortDto.Location.Latitude;
-        airport.Longitude = airPortDto.Location.Longitude;
+        Airport newAirport = new Airport();
+        newAirport.Code = airPortDto.Code;
+        newAirport.Latitude = airPortDto.Location.Latitude;
+        newAirport.Longitude = airPortDto.Location.Longitude;
         
-        await _airportsRepository.Create(airport,token);
-        return airport;
+        await _airportsRepository.Create(newAirport,token);
+        return newAirport;
     }
     public double CalculateDistance(Airport airport1, Airport airport2, CancellationToken token = default)
     {
