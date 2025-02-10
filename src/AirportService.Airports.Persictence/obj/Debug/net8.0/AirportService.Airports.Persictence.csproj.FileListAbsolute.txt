@@ -17,3 +17,4 @@ E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\AirportS
 E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\ref\AirportService.Airports.Persictence.dll
 E:\C#\Airports\src\AirportService.Airports.Persictence\bin\Debug\net8.0\AirportService.Airports.Persictence.runtimeconfig.json
 E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\AirportService.Airports.Persictence.genruntimeconfig.cache
+E:\C#\Airports\src\AirportService.Airports.Persictence\obj\Debug\net8.0\AirportService.Airports.Persictence.sourcelink.json

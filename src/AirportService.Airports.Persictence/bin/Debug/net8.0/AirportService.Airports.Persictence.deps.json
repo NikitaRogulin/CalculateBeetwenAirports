@@ -741,6 +741,9 @@
         }
       },
       "AirportService.Airports.Domain.Contracts/1.0.0": {
+        "dependencies": {
+          "System.Text.Json": "9.0.1"
+        },
         "runtime": {
           "AirportService.Airports.Domain.Contracts.dll": {}
         }

@@ -9,3 +9,5 @@ E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\Air
 E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\refint\AirportService.Airports.Domain.Contracts.dll
 E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.pdb
 E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\ref\AirportService.Airports.Domain.Contracts.dll
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.csproj.AssemblyReference.cache
+E:\C#\Airports\src\AirportService.Airports.Domain.Contracts\obj\Debug\net8.0\AirportService.Airports.Domain.Contracts.sourcelink.json

@@ -13,3 +13,4 @@ E:\C#\Airports\src\AirportService.Airports.Domain\obj\Debug\net8.0\AirportServic
 E:\C#\Airports\src\AirportService.Airports.Domain\obj\Debug\net8.0\refint\AirportService.Airports.Domain.dll
 E:\C#\Airports\src\AirportService.Airports.Domain\obj\Debug\net8.0\AirportService.Airports.Domain.pdb
 E:\C#\Airports\src\AirportService.Airports.Domain\obj\Debug\net8.0\ref\AirportService.Airports.Domain.dll
+E:\C#\Airports\src\AirportService.Airports.Domain\obj\Debug\net8.0\AirportService.Airports.Domain.sourcelink.json

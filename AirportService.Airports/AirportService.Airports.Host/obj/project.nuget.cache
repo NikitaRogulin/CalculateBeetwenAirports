@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qI0H+1Ce8an3kyDMezPAk+JTmjIxdQLLtGx5yP9zBCr0pz661ItVXTQgVjD9C0esW4htXG7FHajpiQiPg/v8zA==",
+  "dgSpecHash": "M03r/+44tksnQ+tmGFZMtW9wJEW0+pkxq3SLu8T/RbqgTX2F65ELSzOgFapeMFzU828aXty/dWL5utQHUvplIQ==",
   "success": true,
   "projectFilePath": "E:\\C#\\Airports\\AirportService.Airports\\AirportService.Airports.Host\\AirportService.Airports.Host.csproj",
   "expectedPackageFiles": [

@@ -12,16 +12,16 @@ public class AirportsRepository : IAirportsRepository
     {
         _airportsContext = context;
     }
-    
-    public void Create(Airport airport, CancellationToken token = default)
+
+    public async Task Create(Airport airport, CancellationToken token = default)
     {
         _airportsContext.Airports.Add(airport);
-        _airportsContext.SaveChangesAsync(token);
+        await _airportsContext.SaveChangesAsync(token);
     }
 
-    public Task<Airport?> GetByIATA(string iataCode, CancellationToken token = default)
+    public async Task<Airport?> GetByIATA(string iataCode, CancellationToken token = default)
     {
-       var airport = _airportsContext.Airports.FirstOrDefaultAsync(x => x.Code == iataCode, token);
-       return airport;
+        var airport = await _airportsContext.Airports.FirstOrDefaultAsync(x => x.Code == iataCode, token);
+        return airport;
     }
 }

@@ -16,7 +16,6 @@ public static class Program
         services.AddScoped<IAirportsService, AirportsService>();
         services.AddDbContext<AirportsContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("AirportsContext")));
-        /*services.AddDbContext<AirportsContext>();*/
         services.AddScoped<IAirportsRepository, AirportsRepository>();
         
         services.AddHttpClient();
@@ -39,15 +38,6 @@ public static class Program
 
         app.Run();
     }
-    
-    /*static void MigrateDb(IHost app)
-    {
-        var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
-
-        using var scope = scopedFactory!.CreateScope();
-        var dbContext = scope.ServiceProvider.GetService<AirportsContext>();
-        dbContext!.Database.Migrate();
-    }*/
     private static void MigrateDb(WebApplication app)
     {
         using (var scope = app.Services.CreateScope())

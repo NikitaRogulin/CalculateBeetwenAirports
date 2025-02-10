@@ -66,3 +66,4 @@ E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\ne
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\System.Text.Json.dll
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\bin\Debug\net8.0\appsettings.json
+E:\C#\Airports\AirportService.Airports\AirportService.Airports.Host\obj\Debug\net8.0\AirportService.Airports.Host.sourcelink.json
